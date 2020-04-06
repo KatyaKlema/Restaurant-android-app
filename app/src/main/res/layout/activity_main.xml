@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:outlineAmbientShadowColor="#162B0A"
+    android:background="@drawable/main"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="134dp"
+        android:contentDescription="logo"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txtSlogan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="90dp"
+        android:text="@string/slogan"
+        android:textSize="40dp"
+        android:textColor="#162B0A" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="205dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:text="Sign Up"
+        android:background="#AB688F39"
+        android:textColor="#162B0A"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="205dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:text="Sign In"
+        android:background="#AB688F39"
+        android:textColor="#162B0A"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

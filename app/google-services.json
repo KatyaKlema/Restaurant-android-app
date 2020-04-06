@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "46937401884",
+    "firebase_url": "https://easy-eat-d4327.firebaseio.com",
+    "project_id": "easy-eat-d4327",
+    "storage_bucket": "easy-eat-d4327.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46937401884:android:a17b572aeab23ad8794dd9",
+        "android_client_info": {
+          "package_name": "com.example.easyeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46937401884-ni1qvuj8qcevqij5r8nb3vl3pfsa6ufs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.easyeat",
+            "certificate_hash": "6db4921c81955d32959033240a65261a2c57ba59"
+          }
+        },
+        {
+          "client_id": "46937401884-i9t4sbso4lrqcrc1fdgpjc97g6shjvlt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQPqzxm_qHMq79ynpeQc1_lv3sWAgsS_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46937401884-i9t4sbso4lrqcrc1fdgpjc97g6shjvlt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
